@@ -2,6 +2,7 @@ import { AiFillAppstore } from "react-icons/ai";
 import { FaMobile, FaGlobe } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
 import Blog from '../assests/images/projects/Blog.png'
+import Car from '../assests/images/projects/Car.png'
 import Covid from '../assests/images/projects/Covid.png'
 import Domingo from '../assests/images/projects/Domingo.png'
 import Form from '../assests/images/projects/Form.png'
@@ -72,6 +73,7 @@ export const featuresData = [
 
 
 export const ProjectData = [
+
   {
     id: 10,
     title: 'A Blog with graphCMS',
@@ -89,6 +91,24 @@ export const ProjectData = [
     src: Blog,
     GitLink: 'https://github.com/henryender/morning-rise-blog',
     LiveLink: 'https://morning-rise-blog.vercel.app/'
+  },
+  {
+    id: 22,
+    title: 'A Car Showcase App',
+    des: <div className="highlight-box">
+      <h2 className="highlight">HighLights of the Project</h2>
+      <ul className="highlight-text">
+        <li>Project was built on latest Next.JS 13 and TypeScript</li>
+        <li>Fully Responsive Application styled with Tailwind CSS</li>
+        <li>Next.JS App Router and server side rendering</li>
+        <li>Enhanced filtering capabilities</li>
+        <li>Well Organised file and folder structure</li>
+        <li>Advanced Search and Fetch functionality</li>
+      </ul>
+    </div>,
+    src: Car,
+    GitLink: 'https://github.com/henryender/car-hub',
+    LiveLink: 'https://car-hub-livid.vercel.app/',
   },
 
   {
