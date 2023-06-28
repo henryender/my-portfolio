@@ -8,6 +8,7 @@ import FooterBottom from './components/Footer/FooterBottom';
 import Resume from './components/Resumes/Resume';
 import './App.css';
 import ContactMe from './components/ContactMe/ContactMe';
+import Certifications from './components/Certifications';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Banner />
         <Resume/>
         <Features />
+        <Certifications />
 
         <Projects />
          
