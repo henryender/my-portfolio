@@ -14,6 +14,7 @@ import splash from '../assests/images/projects/splash.png'
 import Weather from '../assests/images/projects/Weather.png'
 import Zara from '../assests/images/projects/Zara.png'
 import Resturant from '../assests/images/projects/Resturant.png'
+import gym from '../assests/images/projects/gym.png'
 
 // Features Data
 export const featuresData = [
@@ -109,6 +110,24 @@ export const ProjectData = [
     src: Car,
     GitLink: 'https://github.com/henryender/car-hub',
     LiveLink: 'https://car-hub-livid.vercel.app/',
+  },
+  {
+    id: 23,
+    title: 'Gym Membership Website',
+    des: <div className="highlight-box">
+      <h2 className="highlight">HighLights of the Project</h2>
+      <ul className="highlight-text">
+        <li>Project built on Vite and TypeScript</li>
+        <li>Fully Responsive Application styled with Tailwind CSS</li>
+        <li>Animations with Framer Motion</li>
+        <li>Smooth Page navigation/ scroll</li>
+        <li>Well Organised file and folder structure</li>
+        <li>Good state Management with React Hooks</li>
+      </ul>
+    </div>,
+    src: gym,
+    GitLink: 'https://github.com/henryender/gym-app',
+    LiveLink: 'https://evolve-gym-xi.vercel.app/',
   },
 
   {
