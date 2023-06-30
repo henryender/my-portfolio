@@ -15,6 +15,7 @@ import Weather from '../assests/images/projects/Weather.png'
 import Zara from '../assests/images/projects/Zara.png'
 import Resturant from '../assests/images/projects/Resturant.png'
 import gym from '../assests/images/projects/gym.png'
+import dashboard from '../assests/images/projects/dashboard.png'
 
 // Features Data
 export const featuresData = [
@@ -128,6 +129,22 @@ export const ProjectData = [
     src: gym,
     GitLink: 'https://github.com/henryender/gym-app',
     LiveLink: 'https://evolve-gym-xi.vercel.app/',
+  },
+  {
+    id: 24,
+    title: 'Admin Dashboard',
+    des: <div className="highlight-box">
+      <h2 className="highlight">HighLights of the Project</h2>
+      <ul className="highlight-text">
+        <li>Project built on React Javascript framework and JSX </li>
+        <li>Fully Responsive Application with styled-components</li>
+        <li>Beautiful animation with Framer Motion</li>
+        <li>Well Organised file and folder structure</li>
+      </ul>
+    </div>,
+    src: dashboard,
+    GitLink: 'https://github.com/henryender/admin-dashboard',
+    LiveLink: 'https://zuma-dashboard.vercel.app/',
   },
 
   {
@@ -243,7 +260,7 @@ export const ProjectData = [
     title: 'Social Media Website',
     des: <div className="highlight-box"><h2 className="highlight">HighLights of the Project</h2>
       <ul className="highlight-text">
-        <li> React Project Built on HTML5, CSS3, Javascript and Firebase</li>
+        <li> React Project built on JSX, CHAKRA UI, Javascript & Firebase</li>
         <li>Firebase Authentication for verifying and registering user details</li>
         <li>Sign up, Log in and Log out functions with Loading state</li>
         <li>Firebase Storage for saving user comments, posts and online activities</li>
