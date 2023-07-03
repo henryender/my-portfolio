@@ -47,7 +47,7 @@
 div>ol>li {
   padding: 5px;
   cursor: pointer;
-  list-style-type: lower-latin;
+  list-style-type:disc;
   font-weight: 700;
 }
 
