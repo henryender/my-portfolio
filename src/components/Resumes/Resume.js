@@ -12,7 +12,7 @@ function Resume() {
           <button className='button'>
             <p className="button-text">Download Resume</p> </button>
         </div>
-        <div style={{padding:'10px'}}>
+        <div style={{padding:'15px'}}>
           <ol className="text-base font-bodyFont leading-6 tracking-wide">
             <li>Generating Static and Dynamic web pages using HTML5, CSS3, JSX and ES6(javascript).</li>
             <li>GIT version Control, tracking changes with add, commit, pull, branching, merging and handling merge conflicts.</li>
