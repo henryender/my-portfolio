@@ -28,8 +28,8 @@ const CardCert = () => {
 export default CardCert;
 
 const imgData = [
-  { id: 1, src: React },
-  { id: 2, src: Typescript },
-  { id: 3, src: JavaScript },
-  { id: 4, src: Webdesigner },
+  { id: 1, src: Webdesigner },
+  { id: 2, src: JavaScript },
+  { id: 3, src: React },
+  { id: 4, src: Typescript },
 ];
