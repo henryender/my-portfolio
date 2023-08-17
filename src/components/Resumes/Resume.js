@@ -11,7 +11,7 @@ function Resume() {
           <Title title="My Front End Skills are :" des="My Skills" />
         </div>
         <div className="btn-box">
-          <a href="https://api39w.ilovepdf.com/v1/download/qzj1t1bw2l1zAx15Asmjhq5ljtvpdctc19mj5w5g74bs6yk5fxrbnw94v2zskld3qt88c79dxksw0Avkz0lg7pp2n32qlv5py760nbd68mvjkv9ck9wzrtrzsnlpxlAf09kwwp486xyp4my2w1xh35qqgx53qdyw1fw0x1nb531439r15mg1">
+          <a href="/">
             <button className="button">
               <p className="button-text">Download Resume</p>
             </button>
